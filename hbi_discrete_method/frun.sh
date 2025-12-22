@@ -9,7 +9,6 @@ GWKOKAB_LOG_FILE="flowMC_example.log" taskset -c "${CPU_MASK}" time f_sage_n_pls
 	--n-pl 1 \
 	--n-g 0 \
 	--posterior-regex "../generating_mock_posterior_estimates/data/realization_0/posteriors/event_*.dat" \
-	--posterior-columns mass_1_source mass_2_source eccentricity \
 	--prior-json prior.json \
 	--sampler-config flowMC_config.json \
 	--n-buckets 5 \
