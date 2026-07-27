@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-REPO="gwkokab/VTs"
+REPO="kokabsc/VTs"
 PATH_IN_REPO="neural_vts/neural_vt_1_200_1000_ecc_matters.hdf5"
 
 read OID SIZE < <(
